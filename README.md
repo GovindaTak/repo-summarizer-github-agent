@@ -169,6 +169,14 @@ NVIDIA_BASE_URL=https://integrate.api.nvidia.com/v1
 GITHUB_TOKEN=your_github_token
 
 LLM_TEMPERATURE=0.2
+
+AZURE_API_KEY=Enter_Your_AZURE_API_KEY
+AZURE_ENDPOINT=Enter_Your_AZURE_ENDPOINT
+AZURE_MODEL=Enter_Your_AZURE_MODEL
+AZURE_API_VERSION=Enter_Your_AZURE_API_VERSION
+AZURE_DEPLOYMENT_NAME=enter_AZURE_DEPLOYMENT_NAME
+
+
 ```
 
 ---
@@ -178,7 +186,7 @@ LLM_TEMPERATURE=0.2
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/<username>/repo-summarizer-github-agent.git
+git clone https://github.com/GovindaTak/repo-summarizer-github-agent.git
 cd repo-summarizer-github-agent
 ```
 
