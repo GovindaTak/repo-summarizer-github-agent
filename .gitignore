@@ -1,0 +1,54 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---------- Virtual Environment ----------
+venv/
+.env/
+.env.*
+.venv/
+
+# ---------- Environment Variables ----------
+.env
+
+# ---------- Logs ----------
+logs/
+*.log
+
+# ---------- OS Files ----------
+.DS_Store
+Thumbs.db
+
+# ---------- IDE ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------- Testing ----------
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ---------- Build ----------
+dist/
+build/
+*.egg-info/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- Mypy ----------
+.mypy_cache/
+
+# ---------- FastAPI / Uvicorn ----------
+*.sqlite3
+
+# ---------- Node (if any frontend later) ----------
+node_modules/
+
+# ---------- Misc ----------
+*.bak
+*.tmp
+*.vscode/
