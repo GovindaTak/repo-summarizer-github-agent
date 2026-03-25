@@ -82,7 +82,7 @@ Summarizer | Generate final analysis |
 ### 📥 Request
 
 ````http
-POST /repo/summarize
+POST /summarize
 Content-Type: application/json
 `````
 
