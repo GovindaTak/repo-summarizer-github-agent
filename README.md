@@ -118,8 +118,8 @@ Content-Type: application/json
 
 * LangChain
 * LangGraph
-* NVIDIA AI Endpoints (Llama-3)
-* Azure OpenAI (optional)
+* NVIDIA AI Endpoints (Llama-3) (optional)
+* Azure OpenAI 
 
 ### 🔗 External APIs
 
@@ -160,7 +160,7 @@ app/
 Create a `.env` file:
 
 ```env
-LLM_PROVIDER=nvidia
+LLM_PROVIDER=azure_openai
 
 NVIDIA_API_KEY=your_nvidia_api_key
 NVIDIA_MODEL=meta/llama-3.1-70b-instruct
